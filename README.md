@@ -8,6 +8,7 @@ This project includes a **high-performance frontend**, a **feature-rich admin da
 
 ## 📁 Project Structure
 
+
 githubecammerce/
 │
 ├── ecommerce-react/         # Frontend (User Store)
@@ -15,6 +16,7 @@ githubecammerce/
 ├── ecommerce-backend/       # Backend API (Node.js / Express)
 │
 └── ECOM.sql                 # PostgreSQL Database Schema
+
 
 ---
 
