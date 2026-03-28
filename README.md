@@ -1,5 +1,45 @@
 # 🛒 Full-Stack E-Commerce Platform
 
+
+
+
+
+<p align="center">
+
+  <!-- Repository Views -->
+  <a href="https://hits.dwyl.com/EZIOxtn/InstaBooster">
+    <img src="https://hits.dwyl.com/EZIOxtn/InstaBooster.svg?style=flat-square" alt="Repo Views"/>
+  </a>
+
+  <!-- Stars -->
+  <a href="https://github.com/EZIOxtn/InstaBooster/stargazers">
+    <img src="https://img.shields.io/github/stars/EZIOxtn/InstaBooster?style=flat-square&color=yellow" alt="Stars"/>
+  </a>
+
+  <!-- Forks -->
+  <a href="https://github.com/EZIOxtn/InstaBooster/network/members">
+    <img src="https://img.shields.io/github/forks/EZIOxtn/InstaBooster?style=flat-square&color=orange" alt="Forks"/>
+  </a>
+
+  <!-- Issues -->
+  <a href="https://github.com/EZIOxtn/InstaBooster/issues">
+    <img src="https://img.shields.io/github/issues/EZIOxtn/InstaBooster?style=flat-square&color=blue" alt="Issues"/>
+  </a>
+
+  <!-- License -->
+  <a href="https://github.com/EZIOxtn/InstaBooster/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/EZIOxtn/InstaBooster?style=flat-square&color=green" alt="License"/>
+  </a>
+
+  <!-- Last Commit -->
+  <a href="https://github.com/EZIOxtn/InstaBooster/commits/main">
+    <img src="https://img.shields.io/github/last-commit/EZIOxtn/InstaBooster?style=flat-square&color=purple" alt="Last Commit"/>
+  </a>
+
+</p>
+
+
+
 A powerful and modern **full-stack e-commerce solution** built with performance, scalability, and security in mind.
 
 This project includes a **high-performance frontend**, a **feature-rich admin dashboard**, and a **secure backend API** with advanced protections and payment integration.
