@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add your custom global styles here */
+
+@layer base {
+  html {
+    @apply h-full;
+  }
+  body {
+    @apply h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white antialiased;
+  }
+  #root {
+    @apply h-full;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+} 
+@layer utilities {
+  .glow-border {
+    position: relative;
+    z-index: 0;
+    animation: glowPulse 2s ease-in-out infinite;
+  }
+
+  .glow-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 2px rgba(255, 215, 0, 0.7);
+    background: linear-gradient(90deg, gold, orange, gold) border-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    z-index: -1;
+  }
+
+  @keyframes glowPulse {
+    0% {
+      box-shadow: 0 0 8px 2px rgba(255, 215, 0, 0.6);
+    }
+    50% {
+      box-shadow: 0 0 15px 4px rgba(255, 165, 0, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 8px 2px rgba(255, 215, 0, 0.6);
+    }
+  }
+
+  @keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  @keyframes success {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes float-to-cart {
+    0% {
+      transform: scale(1) translate(0, 0);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(0.8) translate(calc(var(--target-x) * 0.5), calc(var(--target-y) * 0.5));
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(0.5) translate(var(--target-x), var(--target-y));
+      opacity: 0;
+    }
+  }
+
+  .floating-cart-animation {
+    animation: float-to-cart 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    will-change: transform, opacity;
+  }
+
+  .animate-wiggle {
+    animation: wiggle 1.2s ease-in-out;
+  }
+
+  .animate-success {
+    animation: success 0.8s ease-in-out;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-in-out;
+  }
+
+  .animate-bounce {
+    animation: bounce 1.5s infinite;
+  }
+
+  /* Hover Effects */
+  .product-card button:not(:disabled):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .product-card button:not(:disabled):active {
+    transform: translateY(0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  /* Loading Spinner */
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .animate-spin {
+    animation: spin 1.5s linear infinite;
+  }
+
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 100% { 
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% { 
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+
+  .snap-x {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .snap-start {
+    scroll-snap-align: start;
+  }
+
+  /* Add smooth scrolling to the document */
+  html {
+    scroll-behavior: smooth;
+  }
+}
