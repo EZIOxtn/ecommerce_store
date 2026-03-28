@@ -7,33 +7,33 @@
 <p align="center">
 
   <!-- Repository Views -->
-  <a href="https://hits.dwyl.com/EZIOxtn/InstaBooster">
-    <img src="https://hits.dwyl.com/EZIOxtn/InstaBooster.svg?style=flat-square" alt="Repo Views"/>
+  <a href="https://hits.dwyl.com/EZIOxtn/ecommerce_store">
+    <img src="https://hits.dwyl.com/EZIOxtn/ecommerce_store.svg?style=flat-square" alt="Repo Views"/>
   </a>
 
   <!-- Stars -->
-  <a href="https://github.com/EZIOxtn/InstaBooster/stargazers">
-    <img src="https://img.shields.io/github/stars/EZIOxtn/InstaBooster?style=flat-square&color=yellow" alt="Stars"/>
+  <a href="https://github.com/EZIOxtn/ecommerce_store/stargazers">
+    <img src="https://img.shields.io/github/stars/EZIOxtn/ecommerce_store?style=flat-square&color=yellow" alt="Stars"/>
   </a>
 
   <!-- Forks -->
-  <a href="https://github.com/EZIOxtn/InstaBooster/network/members">
-    <img src="https://img.shields.io/github/forks/EZIOxtn/InstaBooster?style=flat-square&color=orange" alt="Forks"/>
+  <a href="https://github.com/EZIOxtn/ecommerce_store/network/members">
+    <img src="https://img.shields.io/github/forks/EZIOxtn/ecommerce_store?style=flat-square&color=orange" alt="Forks"/>
   </a>
 
   <!-- Issues -->
-  <a href="https://github.com/EZIOxtn/InstaBooster/issues">
-    <img src="https://img.shields.io/github/issues/EZIOxtn/InstaBooster?style=flat-square&color=blue" alt="Issues"/>
+  <a href="https://github.com/EZIOxtn/ecommerce_store/issues">
+    <img src="https://img.shields.io/github/issues/EZIOxtn/ecommerce_store?style=flat-square&color=blue" alt="Issues"/>
   </a>
 
   <!-- License -->
-  <a href="https://github.com/EZIOxtn/InstaBooster/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/EZIOxtn/InstaBooster?style=flat-square&color=green" alt="License"/>
+  <a href="https://github.com/EZIOxtn/ecommerce_store/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/EZIOxtn/ecommerce_store?style=flat-square&color=green" alt="License"/>
   </a>
 
   <!-- Last Commit -->
-  <a href="https://github.com/EZIOxtn/InstaBooster/commits/main">
-    <img src="https://img.shields.io/github/last-commit/EZIOxtn/InstaBooster?style=flat-square&color=purple" alt="Last Commit"/>
+  <a href="https://github.com/EZIOxtn/ecommerce_store/commits/main">
+    <img src="https://img.shields.io/github/last-commit/EZIOxtn/ecommerce_store?style=flat-square&color=purple" alt="Last Commit"/>
   </a>
 
 </p>
