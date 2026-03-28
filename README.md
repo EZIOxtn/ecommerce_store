@@ -135,11 +135,11 @@ This is a **production-style e-commerce platform** designed with:
 
 ## 🖼️ Screenshots
 
-> 📸 Add your screenshots here
+![screen-capture-ezgif com-optimize](https://github.com/user-attachments/assets/985e7b90-65a4-4c7f-8b0e-1807b8ed01cf)
+<img width="1117" height="907" alt="ScreenShot Tool -20260328202833" src="https://github.com/user-attachments/assets/5ecd5ec6-c0a5-4c87-a77d-162cb73c1961" />
+<img width="445" height="793" alt="ScreenShot Tool -20260328202740" src="https://github.com/user-attachments/assets/b607482a-b517-4216-b34b-a1ab642b061c" />
 
-/screenshots/home.png
-/screenshots/product.png
-/screenshots/admin.png
+<img width="445" height="793" alt="ScreenShot Tool -20260328202622" src="https://github.com/user-attachments/assets/da26526e-5755-4076-a437-a3fb69ecf9ce" />
 
 ---
 
