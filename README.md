@@ -1,6 +1,8 @@
 # 🛒 Full-Stack E-Commerce Platform
 
-A complete full-stack e-commerce application built with modern technologies. This project includes a **customer-facing storefront**, an **admin dashboard**, and a **robust backend API** with authentication and database integration.
+A powerful and modern **full-stack e-commerce solution** built with performance, scalability, and security in mind.
+
+This project includes a **high-performance frontend**, a **feature-rich admin dashboard**, and a **secure backend API** with advanced protections and payment integration.
 
 ---
 
@@ -18,31 +20,84 @@ githubecammerce/
 
 ## 📌 Project Description
 
-This project is a scalable e-commerce solution that provides:
+This is a **production-style e-commerce platform** designed with:
 
-- 🛍️ Product browsing and purchasing system
-- 🔐 Secure authentication using JWT
-- 🧑‍💼 Admin dashboard to manage products and orders
-- 📦 Order management system
-- ⚡ RESTful API backend with PostgreSQL integration
+- ⚡ Ultra-fast frontend performance
+- 🔐 Advanced backend security
+- 💳 Real payment integration
+- 🌍 Multi-language support
+- 📱 Fully responsive design
 
 ---
 
 ## ⚙️ Tech Stack
 
 ### 🖥️ Frontend
-- React.js (Vite / Create React App)
-- Axios (API requests)
-- HTML5 / CSS3 / JavaScript
+- React.js (Vite / CRA)
+- Axios
+- Modern UI/UX Design
+- Multi-language system (i18n)
 
 ### 🛠️ Backend
 - Node.js
 - Express.js
-- JWT (Authentication & Authorization)
+- JWT Authentication
+- Custom Anti-Bot Protection System
+- Google OAuth Login
+
+### 💳 Payment
+- Mollie Payment Gateway Integration
 
 ### 🗄️ Database
 - PostgreSQL (Port: 5432)
-- SQL schema provided (ECOM.sql)
+- SQL Schema (ECOM.sql)
+
+---
+
+## ✨ Features
+
+### 🖥️ Frontend (User Store)
+
+- ⚡ Extremely fast & optimized GUI
+- 🎨 Modern & professional UI/UX
+- 🌙 Light / Dark mode support
+- 🌍 Multi-language support:
+  - 🇩🇪 German  
+  - 🇸🇦 Arabic  
+  - 🇫🇷 French  
+  - 🇬🇧 English  
+- 📱 Fully responsive (Mobile + Desktop)
+- 🛒 Smooth shopping experience
+
+---
+
+### 🧑‍💼 Admin Dashboard
+
+- 📦 Manage products easily
+- 📊 Manage orders and users
+- ⚡ Simple & efficient interface
+- 🔧 Built for speed and usability
+
+---
+
+### 🔐 Backend (Core System)
+
+- 🔑 JWT Authentication System
+- 🛡️ Custom Anti-Bot Protection
+- 🔐 Secure API architecture
+- 🔗 Google Login Integration
+- 💳 Mollie Payment System
+- ⚡ Optimized REST API
+
+---
+
+## 🖼️ Screenshots
+
+> 📸 Add your screenshots here
+
+/screenshots/home.png
+/screenshots/product.png
+/screenshots/admin.png
 
 ---
 
@@ -50,12 +105,12 @@ This project is a scalable e-commerce solution that provides:
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/githubecammerce.git
+git clone https://github.com/EZIOxtn/ecommerce_store.git
 cd githubecammerce
 
 ---
 
-## 🖥️ Frontend Setup (User Store)
+## 🖥️ Frontend Setup
 
 cd ecommerce-react
 npm install
@@ -91,15 +146,15 @@ psql -U your_username -d ecommerce -f ECOM.sql
 
 ### 3. Database Includes
 
-- 🛍️ Products Table  
-- 👤 Users Table  
-- 📦 Orders Table  
+- 🛍️ Products  
+- 👤 Users  
+- 📦 Orders  
 
 ---
 
 ## 🔐 Environment Variables
 
-Create a `.env` file inside `ecommerce-backend/`:
+Create a `.env` file in ecommerce-backend/:
 
 PORT=5000
 
@@ -111,60 +166,58 @@ DB_NAME=ecommerce
 
 JWT_SECRET=your_super_secret_key
 
+# Google OAuth
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_secret
+
+# Mollie Payment
+MOLLIE_API_KEY=your_mollie_api_key
+
 ---
 
 ## 🔄 API Communication
 
-- Frontend communicates with backend using Axios
-- Backend exposes RESTful endpoints like:
-  - /api/products
-  - /api/users
-  - /api/orders
-  - /api/auth
+Frontend uses Axios to communicate with backend:
+
+- /api/products
+- /api/users
+- /api/orders
+- /api/auth
+- /api/payment
 
 ---
 
-## ✨ Features
+## 📌 Current Status
 
-- 🛒 Add to cart & checkout system
-- 🔐 JWT-based authentication
-- 📦 Order tracking
-- 🧑‍💼 Admin product management
-- ⚡ Fast frontend with React
+⚠️ The project is fully functional but still under improvement  
+Some features and optimizations are still being updated.
 
 ---
 
-## 📌 Future Improvements
+## 🚧 Future Improvements
 
-- 💳 Payment integration (Stripe / PayPal)
-- 📱 Mobile responsiveness improvements
-- 🔍 Advanced product search & filtering
-- 📊 Analytics dashboard
+- 📊 Advanced analytics dashboard
+- 🔍 Smart search & filtering
+- 💳 Additional payment methods
+- ⚡ More performance optimizations
+- 🔐 Enhanced security layers
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-# Fork the repo
-# Create a new branch
 git checkout -b feature-name
-
-# Commit changes
-git commit -m "Added new feature"
-
-# Push and create PR
+git commit -m "Add feature"
 git push origin feature-name
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+MIT License
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by your-name
+Developed by EZIOxtn
